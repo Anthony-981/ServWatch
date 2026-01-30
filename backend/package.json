@@ -1,0 +1,30 @@
+{
+  "name": "servwatch-backend",
+  "version": "1.0.0",
+  "description": "ServWatch Backend Server - Real-time monitoring system",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.3.1",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "servwatch-agent",
+  "version": "1.0.0",
+  "description": "ServWatch Agent - System metrics collector",
+  "main": "src/agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/agent.js",
+    "dev": "node --watch src/agent.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.5",
+    "systeminformation": "^5.22.11",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

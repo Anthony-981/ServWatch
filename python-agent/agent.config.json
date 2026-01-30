@@ -1,0 +1,25 @@
+{
+  "server": {
+    "url": "http://localhost:3001"
+  },
+  "agent": {
+    "id": "",
+    "name": "",
+    "collectInterval": 1000,
+    "transmitInterval": 1000,
+    "enableGPU": true
+  },
+  "metrics": {
+    "cpu": true,
+    "memory": true,
+    "disk": true,
+    "network": true,
+    "gpu": true,
+    "temperatures": true,
+    "processes": true
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
